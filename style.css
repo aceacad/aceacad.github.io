@@ -60,7 +60,7 @@ nav {
 /* Hero */
 
 .hero-section {
-  background-image: url('./Images/hero.jpg');
+  background-image: url('./images/hero.jpg');
   height: 100%;
   width: 100%;
   background-position: top;
@@ -105,8 +105,14 @@ nav {
 .contact-value,
 .details-text {
   text-decoration: none;
+  /* width: 50%; */
+  /* word-break: break-all; */
   color: #000;
   font-size: 1rem;
+}
+.email-value {
+  width: 50%;
+  font-size: 0.9rem;
 }
 .details-title {
   /* margin-left: 0.2em; */
@@ -121,7 +127,7 @@ nav {
 }
 
 .footer-logo {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* width: 40%; */
 }
 /* Creator part */
